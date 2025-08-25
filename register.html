@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration</title>
+	</head>
+	<body style="text-align:center">
+		<form action="register.php" method="POST">
+			Enter name: <input type="text" name="name" required>
+			<br><br>
+			Enter address: <textarea name="address" rows="4" required></textarea>
+                        <br><br>
+			Enter email: <input type="email" name="email" required>
+                        <br><br>
+			Enter phone number: <input type="phone" name="phone" required>
+			<br><br>
+			Enter date of birth: <input type="date" name="date" required>
+                        <br><br>
+			Select program: <select name="program">
+			<option value="BCA">BCA</option>
+			<option value="BCom">BCom</option>
+			<option value="others">Others</option>
+			</select><br><br>
+			Select batch: <select name="batch">
+                        <option value="2021-25">2021-25</option>
+                        <option value="2022-26">2022-26</option>
+                        <option value="2023-27">2023-27</option>
+                        </select>
+                        <br><br>
+			<input type="submit">
+		</form>
+	</body>
+</html>
